@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+  zoom: 1; }
+
+.container {
+  width: 990px;
+  margin: 0 auto; }
+
+#content {
+  background: #f3f3f3; }
+  #content .content_top {
+    padding: 20px 0 15px;
+    overflow: hidden;
+    position: relative; }
+    #content .content_top a {
+      float: left; }
+    #content .content_top h1 {
+      float: left;
+      height: 40px;
+      color: #666;
+      font: 24px/40px "Microsoft YaHei";
+      border-left: 1px solid #ccc;
+      padding: 0 0 0 10px;
+      margin: 25px 0 0 10px; }
+  #content .content_c {
+    padding: 9px;
+    border: 1px solid #ddd;
+    background: #fff; }
+    #content .content_c .left {
+      float: left; }
+      #content .content_c .left a img {
+        font-size: 0;
+        vertical-align: top; }
+    #content .content_c .right {
+      float: right;
+      padding: 25px 35px 0 0; }
+      #content .content_c .right .log {
+        border: 1px solid #ddd;
+        height: 48px;
+        padding: 0 13px 0 7px;
+        margin-top: -1px; }
+        #content .content_c .right .log em {
+          float: left;
+          width: 30px;
+          height: 24px;
+          background: url(../../src/img/spirit3.png) no-repeat;
+          margin: 12px 0 0; }
+        #content .content_c .right .log input {
+          color: #999;
+          float: left;
+          width: 350px;
+          height: 28px;
+          padding: 10px 0 10px 7px;
+          font: 14px/28px "Microsoft YaHei";
+          border: none;
+          outline: 0; }
+      #content .content_c .right .yzm {
+        margin-top: 10px; }
+        #content .content_c .right .yzm .yz {
+          border: 1px solid #ddd;
+          display: inline-block;
+          float: left;
+          padding: 5px 10px 5px 4px; }
+          #content .content_c .right .yzm .yz span {
+            float: left;
+            font: 16px/38px "Microsoft YaHei";
+            color: #666;
+            width: 100px;
+            text-align: right; }
+          #content .content_c .right .yzm .yz input {
+            float: left;
+            height: 28px;
+            padding: 5px 0;
+            font: 14px/28px "Microsoft YaHei";
+            border: none;
+            color: #666;
+            width: 80px;
+            outline: 0; }
+          #content .content_c .right .yzm .yz i {
+            display: block;
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin: 10px 0 0 10px;
+            border: none; }
+        #content .content_c .right .yzm #output {
+          float: left;
+          font: 16px/38px "Microsoft YaHei";
+          color: #666;
+          width: 100px;
+          text-align: center;
+          padding-top: 10px; }
+        #content .content_c .right .yzm a {
+          display: block;
+          color: #1589DA;
+          float: left;
+          margin: 20px 0 0 10px;
+          cursor: pointer; }
+        #content .content_c .right .yzm a:hover {
+          text-decoration: underline; }
+      #content .content_c .right .auto {
+        margin-top: 10px;
+        font-size: 12px; }
+        #content .content_c .right .auto .auto_login {
+          color: #666;
+          display: inline;
+          float: left; }
+        #content .content_c .right .auto .tip {
+          float: right;
+          display: inline;
+          color: #ccc; }
+          #content .content_c .right .auto .tip a {
+            color: #666;
+            font-size: 12px; }
+          #content .content_c .right .auto .tip a:hover {
+            color: #f65; }
+      #content .content_c .right #login {
+        margin-top: 15px;
+        font: 24px/46px "Microsoft YaHei";
+        color: #fff;
+        background: #f65;
+        border: 1px solid #e35342;
+        text-align: center;
+        cursor: pointer;
+        width: 408px;
+        height: 46px; }
+      #content .content_c .right .oth_log {
+        margin-top: 10px; }
+        #content .content_c .right .oth_log .wsite {
+          border-bottom: 1px solid #ccc;
+          height: 14px;
+          line-height: 30px; }
+          #content .content_c .right .oth_log .wsite span {
+            color: #999;
+            background: #fff;
+            display: block;
+            width: 140px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 30px;
+            font-size: 12px; }
+        #content .content_c .right .oth_log .qita {
+          text-align: center;
+          color: #ccc;
+          margin-top: 15px;
+          font-size: 12px; }
+          #content .content_c .right .oth_log .qita a {
+            color: #666;
+            font-size: 12px; }
+          #content .content_c .right .oth_log .qita a:hover {
+            color: #f65; }
+
+#footer {
+  background: #f3f3f3;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 22px; }
+  #footer p a {
+    color: #333; }
+  #footer p span {
+    color: #999;
+    padding: 0 8px; }
+  #footer p em {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 0;
+    background: url(../../src/img/foot_sp.fw.png) no-repeat 0 0; }
+  #footer p a:hover {
+    text-decoration: underline; }
+  #footer .C110 {
+    color: #666; }
+  #footer .ps {
+    padding: 5px 0 0;
+    color: #666; }
+  #footer .last em {
+    width: 100px;
+    height: 35px;
+    vertical-align: middle; }
+
+#tj a {
+  height: 12px;
+  font-size: 12px; }
+
+#tj:hover a {
+  text-decoration: underline;
+  color: #f65; }

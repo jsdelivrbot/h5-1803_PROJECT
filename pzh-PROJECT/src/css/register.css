@@ -1,0 +1,105 @@
+*{margin: 0; padding: 0; list-style: none; text-decoration: none;}
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+}
+#header{border-bottom: 1px solid #ddd;}
+.container{width: 990px; margin: 0 auto;}
+
+
+.toolbar_l li{float: left; margin: 0 20px 0 0;}
+.toolbar_l li a{color: #000;font-size: 14px; line-height: 36px; display:block;}
+#header a:hover{text-decoration: underline; color: #f65;}
+
+.toolbar_r{float: right;}
+.toolbar_r li{ float:left; line-height:16px; padding:0 13px; margin:10px 0 0; border-left:1px solid #999;position:relative; z-index:10; font-size:14px;}
+.toolbar_r li a{color: #000;}
+.toolbar_r li em{ float:left; width:20px; height:16px; padding-right:7px; background:url("../img/spirit.png") no-repeat;}
+.toolbar_r li .weibo{ background-position:0 0;}
+.toolbar_r li .weixin{ background-position:-34px 0;}
+.toolbar_r li .tel{ background-position:-71px 0; width:10px;}
+.toolbar_r .first{border: none;}
+
+.toolbar_r .toolbar_weixin{ border-left:1px solid #999; border-right:1px solid #999;z-index:11;width:58px;}
+
+.toolbar_r .select{position:absolute;top:35px;right:-1px;background:#FFF;padding:10px;border:1px solid #ddd;border-top:none;display: none;}
+
+.toolbar_r .toolbar_weixin:hover{height: 14px; margin: 0; padding: 10px 13px; border-top: 1px solid #999; border-bottom: 1px solid #fff; top: 1px;
+}
+.toolbar_r .toolbar_weixin:hover .select{display: block;}
+
+.toolbar_r .toolbar_wb{ border-left:1px solid #999;z-index:12;width:58px;}
+
+.toolbar_r .toolbar_wb:hover{height: 14px; margin: 0; padding: 10px 13px 10px 12px; border-top: 1px solid #999; border-bottom: 1px solid #fff;border-right: 1px solid #999; top: 1px; right: -1px;}
+.toolbar_r .toolbar_wb:hover .select{display: block;}
+
+
+
+
+.toolbar_r .last{ border:none;z-index:13;width:63px;}
+
+.toolbar_r .last dl{position:absolute;top:36px;right:-1px;background:#FFF;padding:10px;border:1px solid #ddd;border-top:none;overflow:hidden;width:230px;display: none;}
+.toolbar_r .last dl dt{width:100px;margin-right:10px;float:left;}
+.toolbar_r .last dl dd{color:#f65; font-size:14px; line-height: 16px; padding-bottom:3px;overflow:hidden;}
+.toolbar_r .last dl .name{color:#666;}
+.toolbar_r .last dl .iphone{display: block;width: 90px;height: 28px;background: url(../img/spirit2.png) no-repeat -283px -62px;}
+.toolbar_r .last dl .android{display: block;width: 90px;height: 28px;background: url(../img/spirit2.png) no-repeat -395px -62px;}
+
+.toolbar_r .last:hover{height: 14px; margin: 0; padding: 10px 12px; border: 1px solid #999; border-bottom: 1px solid #fff; top: 1px; left: -1px;}
+.toolbar_r .last:hover dl{display: block;}
+
+.toolbar_r .last dl .iphone:hover{background: url(../img/spirit2.png) no-repeat -283px -97px;}
+.toolbar_r .last dl .android:hover{background: url(../img/spirit2.png) no-repeat -395px -97px;}
+
+
+#content{background: #f3f3f3;}
+
+#content .content_top{padding: 20px 0 15px;overflow: hidden; position: relative;}
+#content .content_top>a{float: left;}
+#content .content_top h1{float: left;height: 40px;color: #666;font: 24px/40px "Microsoft YaHei";border-left: 1px solid #ccc;padding: 0 0 0 10px;margin: 25px 0 0 10px;}
+#content .content_top p{position: absolute;right: 0;bottom: 15px;color: #333;font-size: 14px;}
+#content .content_top p a{color: #08d;font-size: 12px;}
+#content .content_top p a:hover{text-decoration: underline;}
+
+
+#content .content_c{background: #fff;border: 1px solid #ddd;}
+#content .content_c .left{width: 693px; padding: 40px 0 0 50px; float: left;}
+#content .content_c .left .tag li{width: 260px; float: left;background: url(../img/tag_l1.jpg) no-repeat 0 bottom;font: 20px/22px "Microsoft YaHei";color: #333;height: 38px;text-align: center;cursor: pointer;}
+#content .content_c .left .tag li em{display: inline-block;zoom: 1;vertical-align: top;width: 14px;height: 22px;background: url(../img/spirit3.png) no-repeat 0 -195px;margin-right: 8px;}
+#content .content_c .left .tag li .email{background-position: -31px -195px; width: 22px;}
+#content .content_c .left .tag .active{background-image: url(../img/tag_l2.jpg);}
+
+#content .content_c #reg_form{padding: 30px 0 0 80px;}
+#content .content_c #reg_form form>div{margin-top: 10px;}
+#content .content_c #reg_form form span{float: left;font: 16px/38px "Microsoft YaHei";color: #666;width: 100px;text-align: right;}
+
+#content .content_c #reg_form form input{border: 1px solid #ddd;float: left;padding: 5px 10px;height: 28px;font: 14px/28px "Microsoft YaHei";color: #666;outline: none;width: 110px;}
+#content .content_c #reg_form form .ins{width: 230px;color: #ccc;}
+#content .content_c #reg_form form .err{float: left;color: #f65;background: #ffebec;border: 1px solid #ffbdbf;padding: 4px 10px;width: 210px;height: 15px;margin: 10px 0 0 10px;font-size: 12px;display: none;}
+#content .content_c #reg_form form .e_yzm{width: 20px;height: 20px;background: url(../img/spirit3.png) no-repeat -36px -33px;position: absolute;top: 10px;left: 210px;display: none;}
+#content .content_c #reg_form form #output{float: left;width: 60px;height: 28px;margin: 10px 0 0 10px;text-align: center;color: #999;}
+#content .content_c #reg_form form .change{float: left;margin: 10px 0 0 10px;font-size: 12px;cursor: pointer;}
+#content .content_c #reg_form form .change:hover{text-decoration: underline; color: #f65;}
+#content .content_c #reg_form form .getms{float: left;color: #CCC;height: 38px;border: 1px solid #ddd;background: #f3f3f3;width: 108px;text-align: center;line-height: 38px;margin: 0 0 0 10px;font-size: 12px;}
+#content .content_c #reg_form form .xieyi{color: #333;padding: 20px 0 0;float: left;font-size: 12px;}
+#content .content_c #reg_form form .xy{width: 13px;height: 17px;}
+#register{;height: 46px;background: #f65;border: 1px solid #e35342;color: #fff;width: 250px;font: 24px/46px "Microsoft YaHei";margin: 20px 0 38px;float: left;text-align: center;}
+
+#content .content_c .right{display: inline;float: right;}
+
+#footer{background: #f3f3f3;padding: 20px 0; text-align: center;}
+#footer{font-size: 12px;line-height: 22px;}
+#footer a{color: #333;}
+#footer a:hover{text-decoration: underline;}
+#footer span{color: #999;padding: 0 8px;}
+#footer .C110{color: #666;}
+#footer em{display: inline-block;width: 20px;height: 20px;margin: 10px 10px 0 0;background: url(../img/foot_sp.fw.png) no-repeat 0 0;}
+#footer .ps{padding: 5px 0 0;color: #666;}
+#footer .last em{width: 100px;height: 35px;vertical-align: middle;}
+#tj a{height: 12px;font-size: 12px;}
+#tj:hover a{text-decoration: underline; color: #f65;}

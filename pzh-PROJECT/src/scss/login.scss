@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0; list-style: none; text-decoration: none;}
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+}
+.container{width: 990px; margin: 0 auto;}
+
+#content{
+    background: #f3f3f3;
+    .content_top{
+        padding: 20px 0 15px;overflow: hidden; position: relative;
+        a{float: left;}
+        h1{float: left;height: 40px;color: #666;font: 24px/40px "Microsoft YaHei";border-left: 1px solid #ccc;padding: 0 0 0 10px;margin: 25px 0 0 10px;}
+    }
+    .content_c{
+        padding: 9px; border: 1px solid #ddd; background: #fff;
+        .left{
+            float: left;
+            a{
+                img{font-size: 0;vertical-align: top;}
+            }
+        }
+        .right{
+            float: right;padding: 25px 35px 0 0;
+            .log{
+                border: 1px solid #ddd;height: 48px;padding: 0 13px 0 7px;margin-top: -1px;
+                em{float: left;width: 30px;height: 24px;background: url(../../src/img/spirit3.png) no-repeat;margin: 12px 0 0;}
+                input{color: #999;float: left;width: 350px;height: 28px;padding: 10px 0 10px 7px;font: 14px/28px "Microsoft YaHei";border: none;outline: 0;}
+            }
+            .yzm{
+                margin-top: 10px;
+                .yz{
+                    border: 1px solid #ddd;display: inline-block;float: left;padding: 5px 10px 5px 4px;
+                    span{float: left;font: 16px/38px "Microsoft YaHei";color: #666;width: 100px;text-align: right;}
+                    input{float: left;height: 28px;padding: 5px 0;font: 14px/28px "Microsoft YaHei";border: none;color: #666;width: 80px;outline: 0;}
+                    i{display: block;width: 20px;height: 20px;float: left;margin: 10px 0 0 10px;border: none;}
+                }
+                #output{float: left;font: 16px/38px "Microsoft YaHei";color: #666;width: 100px;text-align: center;padding-top: 10px;}
+                a{display: block;color: #1589DA;float: left;margin: 20px 0 0 10px;cursor: pointer;}
+                a:hover{text-decoration: underline;}
+            }
+            .auto{
+                margin-top: 10px;font-size: 12px;
+                .auto_login{ color: #666;display: inline;float: left;}
+                .tip{
+                    float: right;display: inline;color: #ccc;
+                    a{color: #666;font-size: 12px;}
+                    a:hover{color: #f65;}
+                }
+            }
+            #login{margin-top: 15px;font: 24px/46px "Microsoft YaHei";color: #fff;background: #f65;border: 1px solid #e35342;text-align: center;cursor: pointer;width: 408px;height: 46px;}
+            .oth_log{
+                margin-top: 10px;
+                .wsite{
+                    border-bottom: 1px solid #ccc;height: 14px;line-height: 30px;
+                    span{color: #999;background: #fff;display: block;width: 140px;margin: 0 auto;text-align: center;line-height: 30px;font-size: 12px;}
+                }
+                .qita{
+                    text-align: center;color: #ccc;margin-top: 15px;font-size: 12px;
+                    a{color: #666;font-size: 12px;}
+                    a:hover{color: #f65;}
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+#footer{
+    background: #f3f3f3;padding: 20px 0; text-align: center;
+    font-size: 12px;line-height: 22px;
+        p{
+            a{color: #333;}
+                
+            span{color: #999;padding: 0 8px;}
+            em{display: inline-block;width: 20px;height: 20px;margin: 10px 10px 0 0;background: url(../../src/img/foot_sp.fw.png) no-repeat 0 0;}
+            a:hover{text-decoration: underline;}
+        }
+        .C110{color: #666;}
+        
+        .ps{padding: 5px 0 0;color: #666;}
+        .last{
+            em{width: 100px;height: 35px;vertical-align: middle;}
+            } 
+}
+#tj {
+    a{height: 12px;font-size: 12px;}
+} 
+#tj:hover a{text-decoration: underline; color: #f65;}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/scss/car.css" />
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../lib/require.js" type="text/javascript" data-main="../js/car"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container clearfix">
+            <ul class="toolbar_l">
+                <li class="first"><a href="../index.html">波奇网</a></li>
+                <li><a href="#">波奇商城</a></li>
+                <li><a href="#">波奇服务</a></li>
+                <li><a href="#">波奇论坛</a></li>
+                <li><a href="#">宠物百科</a></li>
+            </ul>
+
+            <ul class="toolbar_r">    
+                <li class="first"><a href="./html/login.html">登录</a></li>
+                <li><a href="./html/register.html">注册</a></li>
+                <li class="toolbar_wb">
+                    <a href="#"><em class="weibo"></em>微博</a>
+                    <div class="select" ><img src="../img/wb.jpg" width="100"></div>
+                </li>
+                <li class="toolbar_weixin">
+                    <span><em class="weixin"></em>微信</span>
+                    <div class="select">
+                        <img src="../img/wchat.jpg" width="100">
+                    </div>  
+                </li>
+                <li class="last">
+                    <a href="#" title="波奇手机客户端"><em class="tel"></em>手机版</a>
+                    <dl>
+                        <dt><img src="../img/tel.jpg" height="100" width="100"></dt>
+                        <dd class="name">波奇宠物APP</dd>
+                        <dd style="font-size:12px;">注册享270，首单送330</dd>
+                        <dd><a class="iphone" href="#"></a></dd>
+                        <dd><a class="android" href="#"></a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>   
+    </div>
+    <div id="content">
+        <div class="container clearfix">
+            <div class="content_top">
+                <a href="../index.html"><img src="../img/logo.png"></a>
+                <span></span>
+            </div>
+            <div class="log_tips">
+                <span></span>您还没有登录! 
+                <a href="#">登录</a> 后您的商品将永久保存在"购物车"中
+            </div>
+            <div class="yh_tips">
+                波奇商城自营商品（江浙沪皖京津粤满59元即免运费）
+                <a href="./list.html">继续购物</a>
+            </div>
+            <div class="car_header">
+                <div class="d0"><label><input type="checkbox" class="qx" checked/>全选</label></div>
+                <div class="d1"><span>商品</span></div>
+                <div class="d2">重量</div>
+                <div class="d3">波奇价(元)</div>
+                <div class="d4">优惠</div>
+                <div class="d5">数量</div>
+                <div class="d6">小计(元)</div>
+                <div class="d7">操作</div>
+            </div>
+            <div class="car_list">
+            </div>
+            <div class="car_btm">
+                <label><input type="checkbox" class="qx" checked/>全选</label>
+                <a><strong class="del_checked">删除选中的商品</strong></a>
+                <a><strong class="clear_car">清空购物车</strong></a>
+                <div class="right r">
+                    <div class="sum_info">
+                        <p>已选择<strong class="all_qty">0</strong>件商品（总重：<span class="all_weight">0</span>kg），总价（不含运费）：<strong class="total">0</strong>
+                        </p>
+                        <p>已节省：¥0.00</p>
+                        <p class="s_price">总价= 商品总价:&nbsp;¥<span class="total2">0</span> + 全球购商品税费:&nbsp;¥0.00</p>
+                    </div>
+                    <a href="#">去结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="help">
+        <div class="container">
+            <div class="link_help">
+                <dl>
+                    <dt><a>新手上路</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">现金账户</a></dd>
+                    <dd><a href="#">优惠券</a></dd>
+                    <dd><a href="#">订单查询</a></dd>
+                    <dd><a href="#">服务协议</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>购买方式</a></dt>
+                    <dd><a href="#">余额支付</a></dd>
+                    <dd><a href="#">网上支付</a></dd>
+                    <dd><a href="#">银行汇款</a></dd>
+                    <dd><a href="#">货到付款</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>配送方式 </a></dt>
+                    <dd><a href="#">配送方式</a></dd>
+                    <dd><a href="#">收费标准</a></dd>
+                    <dd><a href="#">配送时间</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>售后服务</a></dt>
+                    <dd><a href="#">如何退换货</a></dd>
+                    <dd><a href="#">如何退款</a></dd>
+                    <dd><a href="#">退换货流程 </a></dd>
+                    <dd><a href="#">客服电话</a></dd>
+                </dl>
+                <dl>
+                    <dt><a>常见问题</a></dt>
+                    <dd><a href="#">注册登录</a></dd>
+                    <dd><a href="#">积分制度</a></dd>
+                    <dd><a href="#">热点问题</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="link">
+                <a href="#">关于波奇</a>
+                <span>|</span>
+                <a href="#">友情链接</a>
+                <span>|</span>
+                <a href="#">诚聘英才</a>
+                <span>|</span>
+                <a href="#">联系我们</a>
+                <span>|</span>
+                <a href="#">网站地图</a>
+                <span>|</span>
+                <a href="#">意见反馈</a>
+                <span>|</span>
+                <a href="#">帮助中心</a>
+                <span>|</span>客服热线：400-820-6098
+            </p>
+            <p class="C110">
+                <a href="#"><em></em>沪公网安备 31011502004955号</a>
+                <span>|</span><a href="#">沪ICP备13034501号-2</a>
+                <span>|</span>&nbsp;增值电信业务经营许可证：
+                <a href="#">沪B2-20140120</a>
+            </p>
+            <p class="ps">Copyright © 2007-2018 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
+            <p class="last">
+                <a href="#"><em style="background-position: -60px 0;"></em></a>
+                <a href="#"><em style="background-position: -175px 0;"></em></a>
+                <a href="#"><em style="background-position: -60px -60px";></em></a>
+                <a href="#"><em style="background-position: -175px -60px;"></em></a>
+            </p>
+        </div>
+    </div>
+    <span id="tj"><a href="#" title="站长统计">站长统计</a></span>
+</body>
+</html>
